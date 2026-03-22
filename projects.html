@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Alex McTeague's Projects</title>
+    </head>
+
+    <body>
+        <div class="item">
+            <h3><a href="https://github.com/AlexMcTeague/KMZ-Processor">KMZ Processor & ImportSupport</a></h3>
+            <p>
+                A two-tool pipeline for importing Google Earth survey data into AutoCAD.
+                KMZ Processor (VBA) handles data extraction and transformation;
+                ImportSupport (AutoLISP) consumes its output to place objects directly in a drawing.
+            </p>
+            <ul>
+                <li>KMZ Processor converts Google Earth KMZ files into CSVs with objects separated by category, using XPath to parse and traverse the KMZ structure</li>
+                <li>Additional operations include splitting a KMZ into user-drawn areas, and aggregating and summarizing valid data within it</li>
+                <li>ImportSupport reads the CSV output and places coordinate-mapped objects in AutoCAD, completing the pipeline</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3><a href="https://github.com/AlexMcTeague/Network-Design-Tools">Network Design Tools — AutoLISP Routines</a></h3>
+            <p>
+                A collection of 15 AutoLISP routines built to address inefficiencies in the OSP design workflow.
+            </p>
+            <ul>
+                <li>FixPDFImport: Fixes missing geometry from PDF imports, avoiding manual fixes</li>
+                <li>DrawFiber: Speeds up schematic creation by automating multi-step drawing tasks</li>
+                <li>Additional routines include: centering a polyline between two others, callout generation from object data, and automatic distance measurements</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3><a href="https://github.com/AlexMcTeague/DesignShark">DesignShark — Fiber Design Automation Suite</a></h3>
+            <p>
+                A growing suite of automation tools built in Excel / VBA, adopted by multiple teams of contractors at NWA and Charter.
+            </p>
+            <ul>
+                <li>Automates repetitive device naming, data formatting, and deliverable generation, saving 6+ hours per design (25%+ efficiency gain)</li>
+                <li>Handles ingestion and processing of exports from Magellan, Iris, and Google Earth</li>
+                <li>Evolved iteratively over time from a single script into a full multi-tool suite based on team feedback</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3><a href="https://github.com/AlexMcTeague/RDOF-QC-Tool">Fiber Design QC Tool</a></h3>
+            <ul>
+                <li>Built with a teammate to validate design deliverables for completeness and consistency/li>
+                <li>Compares user data to reports from Magellan and Google Earth, runs automated checks, and calls out errors in a dashboard</li>
+                <li>Drastically reduces QC rejections for design teams using the tool</li>
+                <li>Allows QC teams to focus on deeper qualitative investigations, since quantitative checks are handled by the tool</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3><a href="https://github.com/Flark-And-Dei/Monstrous-Ambition">Monstrous Ambition</a></h3>
+            <p>
+                The "dream game" I'm making with my partner, Caitlin Starkey.
+                Progress is slow, yet inevitable (please forgive the dev art for now).
+                Our goal is to create a tactical rpg / monster tamer that combines our favorite genres.
+            </p>
+            <p><strong>This is a private, closed-source repository; If you're an employer reviewing my projects,
+                please reach out to me using my links above to request temporary access.</strong></p>
+            <h4>Current Features:</h4>
+            <ul>
+                <li>JSON Editor: players will be able to create their own Elements and Species using the in-game editor</li>
+                <li>Camera rotation/zoom</li>
+                <li>Persistent Settings menu</li>
+                <li>Basic unit movement</li>
+                <li>Dialog UI</li>
+            </ul>
+            <h4>Next Features:</h4>
+            <ul>
+                <li>Add Attacks, Abilities, and Maps to the in-game editor</li>
+                <li>Turn structure</li>
+                <li>Multiple terrain types</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3><a href="https://github.com/AlexMcTeague/Omnigon">Omnigon</a></h3>
+            <p>
+                While browsing a thrift store I came across <a href="https://boardgamegeek.com/boardgame/4607/omnigon">Omnigon</a> on the shelf.
+                I recreated the game in Godot to practice creating a state machine. It ended up also being useful practice for
+                creating interactable objects without forcing them to inherit from the built-in Button class.
+            </p>
+        </div>
+    </body>
+</html>
