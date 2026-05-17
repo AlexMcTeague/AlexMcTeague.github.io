@@ -6,7 +6,7 @@ body {
     color: #333;
     background-color: #f4f4f4;
 }
-.container {
+.page-container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -18,10 +18,10 @@ h1,
 h2 {
     color: #007bff;
 }
-.header {
+header {
     text-align: center;
 }
-.header h1 {
+header h1 {
     margin: 10px 0;
 }
 .contact {
@@ -32,10 +32,10 @@ h2 {
     color: #007bff;
     text-decoration: none;
 }
-.section {
+section {
     margin: 20px 0;
 }
-.section h2 {
+section h2 {
     margin-bottom: 10px;
     border-bottom: 2px solid #007bff;
     padding-bottom: 5px;
@@ -52,11 +52,11 @@ h2 {
     margin: 5px 0;
     font-size: 14px;
 }
-.skills ul {
+.skills-section ul {
     list-style: none;
     padding: 0;
 }
-.skills ul li {
+.skills-section ul li {
     display: inline-block;
     background: #007bff;
     color: #fff;
