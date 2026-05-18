@@ -1,5 +1,5 @@
 // Event listener to save the title when the user clicks the link
-const links = document.querySelectorAll('a.page-link');
+const links = document.querySelectorAll('.page-link');
 
 // DEBUG
 // console.log(`Found ${links.length} page links for breadcrumb tracking.`);
@@ -13,7 +13,7 @@ links.forEach(link => {
 });
 
 // On page load, check for the referrer title and update the breadcrumb
-const defaultTitle = 'Index';
+const defaultTitle = 'Alex McTeague - Index';
 const defaultLink = 'index.html';
 
 let referrerTitle = localStorage.getItem('referrerTitle');
