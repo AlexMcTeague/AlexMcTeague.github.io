@@ -13,7 +13,7 @@ links.forEach(link => {
 });
 
 // On page load, check for the referrer title and update the breadcrumb
-const defaultTitle = 'About Me';
+const defaultTitle = 'Index';
 const defaultLink = 'index.html';
 
 let referrerTitle = localStorage.getItem('referrerTitle');
