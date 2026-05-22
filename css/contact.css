@@ -1,30 +1,36 @@
 @import "reset.css";
 
-body {
+.page-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.page-container {
-    width: fit-content;
+@media (min-aspect-ratio: 0.8) {
+    :root {
+        font-size: max(6px, 2vw);
+    }
+
+    .page-container {
+        flex-direction: row;
+    }
 }
 
 .profile-picture {
-    width: 150px;
-    height: 150px;
+    width: var(--picture-size);
+    height: var(--picture-size);
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: var(--spacing-size);
 }
 
 section {
-    max-width: 350px;
-    margin: 20px auto;
-    padding: 20px;
+    max-width: var(--section-width);
+    margin: var(--spacing-size);
+    padding: var(--spacing-size);
     background: #eee;
-    border-radius: 8px;
+    border-radius: var(--spacing-size);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
