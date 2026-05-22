@@ -1,7 +1,13 @@
 @import "base.css";
 
 :root {
-    font-size: max(6px, 2vw);
+    font-size: max(6px, 2.6vw);
+}
+
+@media (min-aspect-ratio: 0.8) {
+    :root {
+        font-size: max(6px, 2vw);
+    }
 }
 
 header h1 {
@@ -11,6 +17,10 @@ header h1 {
 header a {
     color: #007bff;
     text-decoration: none;
+}
+
+video, img {
+    margin-bottom: var(--spacing-size);
 }
 
 section {
@@ -52,15 +62,15 @@ section h2 {
     text-decoration: underline;
 }
 
-.work-section .experience > p {
-    font-style: italic;
-}
-
-.work-section ul {
+.projects-section ul, .work-section ul {
     list-style-position: inside;
 
     li {
         list-style-type: disc;
     }
+}
+
+.work-section .experience > p {
+    font-style: italic;
 }
 
