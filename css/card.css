@@ -31,9 +31,32 @@ section {
     padding: var(--spacing-size);
     background: #eee;
     border-radius: var(--spacing-size);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
 .about-me-section {
     text-align: center;
+}
+
+.button-section {
+    padding: 0;
+    background: #fff;
+    box-shadow: none;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: var(--spacing-size);
+}
+
+button {
+    flex: 1 1 0;
+    padding: calc(var(--spacing-size) * 0.25) calc(var(--spacing-size) * 0.5);
+    font-size: var(--button-font-size);
+    color: #fff;
+    background-color: var(--alt-text-color);
+    border: none;
+    border-radius: calc(var(--spacing-size) / 1.5);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
