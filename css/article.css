@@ -1,0 +1,70 @@
+@import "base.css";
+
+:root {
+    font-size: max(6px, 2vw);
+}
+
+header h1 {
+    margin: var(--spacing-size) 0;
+}
+
+header a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+section {
+    margin: var(--spacing-size) 0;
+}
+
+section h2 {
+    margin-bottom: var(--spacing-size);
+    padding-bottom: 0.25rem;
+}
+
+.skills-section ul li {
+    display: inline-block;
+    font-size: var(--button-font-size);
+    color: #fff;
+    background: var(--alt-text-color);
+    padding: calc(var(--spacing-size) * 0.25) calc(var(--spacing-size) * 0.5);
+    margin: calc(var(--spacing-size) * 0.25);
+    border: none;
+    border-radius: calc(var(--spacing-size) / 1.5);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.projects-section h2 {
+    margin-bottom: 0;
+}
+
+.projects-section > p {
+    margin-bottom: var(--spacing-size);
+
+    a {
+        color: var(--alt-text-color);
+        text-decoration: none;
+    }
+}
+
+.experience {
+    margin-bottom: var(--spacing-size);
+}
+
+.experience h3 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.work-section .experience > p {
+    font-style: italic;
+}
+
+.work-section ul {
+    list-style-position: inside;
+
+    li {
+        list-style-type: disc;
+    }
+}
+

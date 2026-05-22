@@ -1,4 +1,4 @@
-@import "reset.css";
+@import "base.css";
 
 .page-container {
     display: flex;
@@ -42,7 +42,7 @@ section {
     padding: 0;
     background: #fff;
     box-shadow: none;
-    
+
     display: flex;
     flex-direction: row;
     align-items: stretch;

@@ -7,6 +7,7 @@
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
+    --h4-font-size: 1rem;
     --button-font-size: 1rem;
     --picture-size: 15rem;
     --spacing-size: 1rem;
@@ -48,4 +49,8 @@ h2 {
 
 h3 {
     font-size: var(--h3-font-size);
+}
+
+h4 {
+    font-size: var(--h4-font-size);
 }
