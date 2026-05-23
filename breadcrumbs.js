@@ -14,6 +14,12 @@ links.forEach(link => {
     link.addEventListener('click', addReferrer);
 });
 
+// Wipe the referrers list if we weren't referred to this page
+if (document.referrer === '') {
+    referrers = [];
+    localStorage.setItem('referrers', JSON.stringify(referrers));
+}
+
 // Find all breadcrumb links, and update their text and href based on the most recent referrer
 const defaultTitle = 'Alex McTeague - Index';
 const defaultLink = 'index.html';
