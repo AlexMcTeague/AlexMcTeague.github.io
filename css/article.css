@@ -6,6 +6,21 @@
     :root {
         font-size: max(6px, 2vw);
     }
+    @media (min-width: 768px) {
+        :root {
+            font-size: max(6px, 1.8vw);
+        }
+    }
+    @media (min-width: 992px) {
+        :root {
+            font-size: max(6px, 1.6vw);
+        }
+    }
+    @media (min-width: 1200px) {
+        :root {
+            font-size: max(6px, 1.4vw);
+        }
+    }
 }
 
 header h1 {
